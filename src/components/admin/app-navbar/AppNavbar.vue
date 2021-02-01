@@ -33,16 +33,16 @@
         >
           {{$t('navbar.messageUs')}}&nbsp;
           <a
-            href="mailto:hello@epicmax.co"
+            href="mailto:sales@radiansys.com"
             target="_blank"
             class="app-navbar__mailto-link"
             :style="{color: this.$themes.primary}"
           >
-            hello@epicmax.co
+            sales@radiansys.com
           </a>
         </span>
         <va-button
-          href="https://github.com/epicmaxco/vuestic-admin"
+          href="https://github.com/RadiansysInc/radiansys-template-vue"
           color="#000000"
           class="app-navbar__button"
           icon="fa fa-github"

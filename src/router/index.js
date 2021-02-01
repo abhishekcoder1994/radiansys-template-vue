@@ -91,7 +91,7 @@ export default new Router({
               path: 'charts',
               component: () => import('../components/statistics/charts/Charts.vue'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Charts',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Charts',
               },
             },
             {
@@ -99,7 +99,7 @@ export default new Router({
               path: 'progress-bars',
               component: () => import('../components/statistics/progress-bars/ProgressBars.vue'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Progress-Bars',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Progress-Bars',
               },
             },
           ],
@@ -114,7 +114,7 @@ export default new Router({
               path: 'form-elements',
               component: () => import('../components/forms/form-elements/FormElements.vue'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/inputs',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/inputs',
               },
             },
             {
@@ -122,7 +122,7 @@ export default new Router({
               path: 'medium-editor',
               component: () => import('../components/forms/medium-editor/MediumEditor.vue'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Medium-Editor',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Medium-Editor',
               },
             },
           ],
@@ -136,13 +136,13 @@ export default new Router({
               name: 'markup',
               path: 'markup',
               component: () => import('../components/markup-tables/MarkupTables.vue'),
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables', // TODO Update docs
+              wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Tables', // TODO Update docs
             },
             {
               name: 'data',
               path: 'data',
               component: () => import('../components/data-tables/DataTables.vue'),
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables', // TODO Add docs
+              wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Tables', // TODO Add docs
             },
           ],
         },
@@ -161,7 +161,7 @@ export default new Router({
               path: 'buttons',
               component: () => import('../components/ui/buttons/Buttons'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Buttons',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Buttons',
               },
             },
             {
@@ -169,7 +169,7 @@ export default new Router({
               path: 'rating',
               component: () => import('../components/ui/rating/Rating'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Rating',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Rating',
               },
             },
             {
@@ -177,7 +177,7 @@ export default new Router({
               path: 'color-pickers',
               component: () => import('../components/ui/color-pickers/ColorPickers'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Color-Pickers',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Color-Pickers',
               },
             },
             {
@@ -185,7 +185,7 @@ export default new Router({
               path: 'timelines',
               component: () => import('../components/ui/timelines/Timelines'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Timelines',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Timelines',
               },
             },
             {
@@ -193,7 +193,7 @@ export default new Router({
               path: 'notifications',
               component: () => import('../components/ui/notifications/Notifications'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Notifications',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Notifications',
               },
             },
             {
@@ -205,7 +205,7 @@ export default new Router({
                   path: '', // Default route
                   component: () => import('../components/ui/icons/SetsList'),
                   meta: {
-                    wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Icons',
+                    wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Icons',
                   },
                 },
                 {
@@ -214,7 +214,7 @@ export default new Router({
                   component: () => import('../components/ui/icons/IconSet'),
                   props: true,
                   meta: {
-                    wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Icons',
+                    wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Icons',
                   },
                 },
               ],
@@ -234,7 +234,7 @@ export default new Router({
               path: 'modals',
               component: () => import('../components/ui/modals/Modals'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Modals',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Modals',
               },
             },
             {
@@ -242,7 +242,7 @@ export default new Router({
               path: 'cards',
               component: () => import('../components/ui/cards/Cards'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Cards',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Cards',
               },
             },
             {
@@ -250,7 +250,7 @@ export default new Router({
               path: 'file-upload',
               component: () => import('../components/ui/file-upload/FileUpload'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/File-Upload',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/File-Upload',
               },
             },
             {
@@ -258,7 +258,7 @@ export default new Router({
               path: 'chips',
               component: () => import('../components/ui/chips/Chips'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Chips',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Chips',
               },
             },
             {
@@ -266,14 +266,14 @@ export default new Router({
               path: 'tree-view',
               component: () => import('../components/ui/tree-view/TreeView'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tree-view',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Tree-view',
               },
             },
             {
               name: 'collapses',
               path: 'collapses',
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Collapse',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Collapse',
               },
               component: () => import('../components/ui/collapse/Collapses'),
             },
@@ -292,7 +292,7 @@ export default new Router({
               path: 'sliders',
               component: () => import('../components/ui/sliders/Sliders'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Sliders',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Sliders',
               },
             },
             {
@@ -305,7 +305,7 @@ export default new Router({
               path: 'chatPage',
               component: () => import('../components/ui/chat/ChatPage'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Chat',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Chat',
               },
             },
             {
@@ -313,7 +313,7 @@ export default new Router({
               path: 'tabs',
               component: () => import('../components/ui/tabs/Tabs'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tabs',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Tabs',
               },
             },
             {
@@ -321,7 +321,7 @@ export default new Router({
               path: 'lists',
               component: () => import('../components/lists/Lists.vue'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Lists',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Lists',
               },
             },
           ],
@@ -336,7 +336,7 @@ export default new Router({
               path: 'google-maps',
               component: () => import('../components/maps/google-maps/GoogleMapsPage'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Maps',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Maps',
               },
             },
             {
@@ -344,7 +344,7 @@ export default new Router({
               path: 'yandex-maps',
               component: () => import('../components/maps/yandex-maps/YandexMapsPage'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Maps',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Maps',
               },
             },
             {
@@ -352,7 +352,7 @@ export default new Router({
               path: 'leaflet-maps',
               component: () => import('../components/maps/leaflet-maps/LeafletMapsPage'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Maps',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Maps',
               },
             },
             {
@@ -360,7 +360,7 @@ export default new Router({
               path: 'bubble-maps',
               component: () => import('../components/maps/bubble-maps/BubbleMapsPage'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Maps',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Maps',
               },
             },
             {
@@ -368,7 +368,7 @@ export default new Router({
               path: 'line-maps',
               component: () => import('../components/maps/line-maps/LineMapsPage'),
               meta: {
-                wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Maps',
+                wikiLink: 'https://github.com/RadiansysInc/radiansys-template-vue/wiki/Maps',
               },
             },
           ],
